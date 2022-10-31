@@ -50,6 +50,19 @@ function Mobilenavbar() {
     })
   }
 
+  window.addEventListener("resize",()=>{
+    if(window.innerWidth>=768){
+      setshow("invisible")
+    }
+    else{
+      if(change){
+        setshow("visible")
+      }
+      else{
+        setshow("invisible")
+      }
+    }
+  })
   return (
     <>
       <div className={` ${goto} ml-[75vw] sm:ml-[82vw] flex mt-[35rem] justify-end fixed animate-bounce`}>

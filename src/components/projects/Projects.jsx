@@ -9,7 +9,7 @@ function Projects() {
       <div className='flex justify-center'>
       <div className='flex justify-center  flex-wrap  mr-10 w-[60rem]'>
         <Project_card link="https://hackathon-dphi.netlify.app/" img="./rocket.svg" />
-        <Project_card link="https://air-bender.netlify.app/" img="./air-bender.jpg" />
+        <Project_card link="https://air-bender.netlify.app/" img="./shoes.png" />
        
       </div>
       </div>

@@ -7,7 +7,7 @@ function Nav_component(props) {
 
     const [fix,setfix]=useState(null);
     const [bg,setbg]=useState(null);
-    if(window.innerWidth>767){
+    if(window.innerWidth>768){
         window.addEventListener("scroll",(e)=>{
             if(window.scrollY>=75){
                 setfix("fixed")

@@ -3,10 +3,10 @@ import { Button, ButtonGroup } from "@mui/material"
 function Main() {
   return (
     <div className='text-[#FFB800] font-bold mt-[-30px] '>
-      <img className='absolute z-[-1] h-[30rem] sm:h-[42rem] w-full' src="./img.png" alt="main page image"/>
+      <img className='absolute z-[-1] h-[30rem] sm:h-[42rem] w-full ' src="./img.jpg" alt="main page image"/>
       <div className='text-center sm:text-start sm:ml-32 pt-32 sm:pt-40  '>
         <section className='z-10'>
-          <h1>HELLO!</h1>
+          <h1 >HELLO!</h1>
           <div className='text-6xl mt-7 sm:text-6xl'><h1 className='inline text-white'>I'm </h1> Hem</div>
           <h1 className='text-6xl sm:text-7xl sm:mt-2'>Bahadur</h1>
           <h1 className='text-white mt-7 text-2xl'>A Freelance FrontEnd Developer</h1>

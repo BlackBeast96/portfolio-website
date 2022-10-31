@@ -11,6 +11,7 @@ function Skills() {
         <Skillbar name="REACT JS" percentage={75} />
         <Skillbar name="TAILWINDCSS" percentage={75} />
         <Skillbar name="FIGMA" percentage={70} />
+        <Skillbar name="REACT SPRING" percentage={55} />
       </div>
     </>
   )
